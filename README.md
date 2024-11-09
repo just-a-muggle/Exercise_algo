@@ -1,4 +1,4 @@
-> you can enter the floader through terminator which named “script”
+> you can through terminator find the folder which named “script”
 > 
 > `cd script`
 > 
