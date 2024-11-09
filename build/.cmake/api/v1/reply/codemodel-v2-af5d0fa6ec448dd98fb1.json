@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dac",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "printMagicMatrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printMagicMatrix-Debug-fddf6867cbdbb04e1b2d.json",
+					"name" : "printMagicMatrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printNumber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printNumber-Debug-b3bb033e2e230565911c.json",
+					"name" : "printNumber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "searchMoney::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-searchMoney-Debug-1bb3d1cd33ef23a058b8.json",
+					"name" : "searchMoney",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/achang/program_algo/Divide_And_Conquer/build",
+		"source" : "/home/achang/program_algo/Divide_And_Conquer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

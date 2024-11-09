@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",             // 设置 C++ 标准
+                "-g",                     // 调试信息
+                "${file}",                // 当前文件
+                "-o",
+                "${fileDirname}/output"   // 输出文件
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
