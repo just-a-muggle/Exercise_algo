@@ -45,22 +45,37 @@ if [ ${#files[@]} -eq 0 ]; then
     exit 1
 fi
 
-# 显示文件列表并让用户选择
-echo "请选择要执行的文件:"
-select file in "${files[@]##*/}"; do
-    # 检查是否选择了有效选项
-    if [[ -n "$file" ]]; then
+###################
+
+BLUE='\033[1;34m'    # 蓝色用于文件名
+YELLOW='\033[1;33m'  # 黄色用于序号
+NC='\033[0m'         # 清除颜色
+
+echo -e "请选择要执行的文件:"
+for i in "${!files[@]}"; do
+    file="${files[$i]##*/}"  # 只获取文件名
+    echo -e "${YELLOW}$((i + 1))${NC}) ${BLUE}$file${NC}"
+done
+
+
+while true; do
+    read -p "请输入序号: " choice
+    
+    # 检查输入是否为有效数字，并在范围内
+    if [[ "$choice" =~ ^[0-9]+$ ]] && (( choice >= 1 && choice <= ${#files[@]} )); then
+        file="${files[choice-1]}"
+        
         # 检查是否为可执行文件
         if [[ -x "$file" ]]; then
-            echo -e "\033[48;5;235;38;2;0;191;255m 🚀 正在执行 $file... \033[0m";
+            echo -e "\033[48;5;235;38;2;0;191;255m 🚀 正在执行 ${BLUE}${file##*/}${NC}... \033[0m"
             "$file"
         else
-            echo "$file 不是可执行文件，是否尝试用 bash 执行？(y/n)"
-            read -r choice
-            if [[ "$choice" == "y" ]]; then
+            echo -e "${BLUE}${file##*/}${NC} 不是可执行文件，是否尝试用 bash 执行？(y/n)"
+            read -r run_with_bash
+            if [[ "$run_with_bash" == "y" ]]; then
                 bash "$file"
             else
-                echo "取消执行 $file。"
+                echo "取消执行 ${BLUE}${file##*/}${NC}。"
             fi
         fi
         break
@@ -68,42 +83,3 @@ select file in "${files[@]##*/}"; do
         echo "无效选择，请重新选择。"
     fi
 done
-
-###################
-
-# BLUE='\033[1;34m'    # 蓝色用于文件名
-# YELLOW='\033[1;33m'  # 黄色用于序号
-# NC='\033[0m'         # 清除颜色
-
-# echo -e "请选择要执行的文件:"
-# for i in "${!files[@]}"; do
-#     file="${files[$i]##*/}"  # 只获取文件名
-#     echo -e "${YELLOW}$((i + 1))${NC}) ${BLUE}$file${NC}"
-# done
-
-
-# while true; do
-#     read -p "请输入序号: " choice
-    
-#     # 检查输入是否为有效数字，并在范围内
-#     if [[ "$choice" =~ ^[0-9]+$ ]] && (( choice >= 1 && choice <= ${#files[@]} )); then
-#         file="${files[choice-1]}"
-        
-#         # 检查是否为可执行文件
-#         if [[ -x "$file" ]]; then
-#             echo -e "\033[48;5;235;38;2;0;191;255m 🚀 正在执行 ${BLUE}${file##*/}${NC}... \033[0m"
-#             "$file"
-#         else
-#             echo -e "${BLUE}${file##*/}${NC} 不是可执行文件，是否尝试用 bash 执行？(y/n)"
-#             read -r run_with_bash
-#             if [[ "$run_with_bash" == "y" ]]; then
-#                 bash "$file"
-#             else
-#                 echo "取消执行 ${BLUE}${file##*/}${NC}。"
-#             fi
-#         fi
-#         break
-#     else
-#         echo "无效选择，请重新选择。"
-#     fi
-# done
