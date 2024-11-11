@@ -1,5 +1,5 @@
-/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles/rebuild_cache.dir
-/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles/edit_cache.dir
-/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles/searchMoney.dir
-/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles/printMagicMatrix.dir
-/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles/printNumber.dir
+/home/achang/Exercise_algo/build/CMakeFiles/rebuild_cache.dir
+/home/achang/Exercise_algo/build/CMakeFiles/edit_cache.dir
+/home/achang/Exercise_algo/build/CMakeFiles/searchMoney.dir
+/home/achang/Exercise_algo/build/CMakeFiles/printMagicMatrix.dir
+/home/achang/Exercise_algo/build/CMakeFiles/printNumber.dir

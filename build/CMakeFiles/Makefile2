@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/achang/program_algo/Divide_And_Conquer
+CMAKE_SOURCE_DIR = /home/achang/Exercise_algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/achang/program_algo/Divide_And_Conquer/build
+CMAKE_BINARY_DIR = /home/achang/Exercise_algo/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -78,14 +78,14 @@ clean: CMakeFiles/printNumber.dir/clean
 CMakeFiles/searchMoney.dir/all:
 	$(MAKE) -f CMakeFiles/searchMoney.dir/build.make CMakeFiles/searchMoney.dir/depend
 	$(MAKE) -f CMakeFiles/searchMoney.dir/build.make CMakeFiles/searchMoney.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles --progress-num=5,6 "Built target searchMoney"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/achang/Exercise_algo/build/CMakeFiles --progress-num=5,6 "Built target searchMoney"
 .PHONY : CMakeFiles/searchMoney.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/searchMoney.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/Exercise_algo/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/searchMoney.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/Exercise_algo/build/CMakeFiles 0
 .PHONY : CMakeFiles/searchMoney.dir/rule
 
 # Convenience name for target.
@@ -105,14 +105,14 @@ CMakeFiles/searchMoney.dir/clean:
 CMakeFiles/printMagicMatrix.dir/all:
 	$(MAKE) -f CMakeFiles/printMagicMatrix.dir/build.make CMakeFiles/printMagicMatrix.dir/depend
 	$(MAKE) -f CMakeFiles/printMagicMatrix.dir/build.make CMakeFiles/printMagicMatrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles --progress-num=1,2 "Built target printMagicMatrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/achang/Exercise_algo/build/CMakeFiles --progress-num=1,2 "Built target printMagicMatrix"
 .PHONY : CMakeFiles/printMagicMatrix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/printMagicMatrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/Exercise_algo/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/printMagicMatrix.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/Exercise_algo/build/CMakeFiles 0
 .PHONY : CMakeFiles/printMagicMatrix.dir/rule
 
 # Convenience name for target.
@@ -132,14 +132,14 @@ CMakeFiles/printMagicMatrix.dir/clean:
 CMakeFiles/printNumber.dir/all:
 	$(MAKE) -f CMakeFiles/printNumber.dir/build.make CMakeFiles/printNumber.dir/depend
 	$(MAKE) -f CMakeFiles/printNumber.dir/build.make CMakeFiles/printNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles --progress-num=3,4 "Built target printNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/achang/Exercise_algo/build/CMakeFiles --progress-num=3,4 "Built target printNumber"
 .PHONY : CMakeFiles/printNumber.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/printNumber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/Exercise_algo/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/printNumber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/achang/Exercise_algo/build/CMakeFiles 0
 .PHONY : CMakeFiles/printNumber.dir/rule
 
 # Convenience name for target.

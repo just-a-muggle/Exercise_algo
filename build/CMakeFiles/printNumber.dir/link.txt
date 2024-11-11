@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/printNumber.dir/src/printNumber.cpp.o  -o ../bin/printNumber 
+/usr/bin/c++     CMakeFiles/printNumber.dir/src/printNumber.cpp.o  -o ../bin/printNumber 

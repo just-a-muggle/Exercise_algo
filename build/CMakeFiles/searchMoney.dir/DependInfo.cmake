@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/achang/program_algo/Divide_And_Conquer/src/searchMoney.cpp" "/home/achang/program_algo/Divide_And_Conquer/build/CMakeFiles/searchMoney.dir/src/searchMoney.cpp.o"
+  "/home/achang/Exercise_algo/src/searchMoney.cpp" "/home/achang/Exercise_algo/build/CMakeFiles/searchMoney.dir/src/searchMoney.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/printMagicMatrix.dir/src/printMagicMatrix.cpp.o  -o ../bin/printMagicMatrix 
+/usr/bin/c++     CMakeFiles/printMagicMatrix.dir/src/printMagicMatrix.cpp.o  -o ../bin/printMagicMatrix 

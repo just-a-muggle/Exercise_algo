@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -42,21 +42,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "printMagicMatrix::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-printMagicMatrix-Debug-fddf6867cbdbb04e1b2d.json",
+					"jsonFile" : "target-printMagicMatrix-07ecf1d2eb438a0e43f1.json",
 					"name" : "printMagicMatrix",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "printNumber::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-printNumber-Debug-b3bb033e2e230565911c.json",
+					"jsonFile" : "target-printNumber-ae0990f329b04cc8717a.json",
 					"name" : "printNumber",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "searchMoney::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-searchMoney-Debug-1bb3d1cd33ef23a058b8.json",
+					"jsonFile" : "target-searchMoney-2d80d80e3442b85b903e.json",
 					"name" : "searchMoney",
 					"projectIndex" : 0
 				}
@@ -66,8 +66,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/achang/program_algo/Divide_And_Conquer/build",
-		"source" : "/home/achang/program_algo/Divide_And_Conquer"
+		"build" : "/home/achang/Exercise_algo/build",
+		"source" : "/home/achang/Exercise_algo"
 	},
 	"version" : 
 	{

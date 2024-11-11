@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/searchMoney.dir/src/searchMoney.cpp.o  -o ../bin/searchMoney 
+/usr/bin/c++     CMakeFiles/searchMoney.dir/src/searchMoney.cpp.o  -o ../bin/searchMoney 
